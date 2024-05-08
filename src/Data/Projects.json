@@ -1,0 +1,43 @@
+
+[
+  {
+    "title": "Friendlyy: A Real-Time Chat Application",
+    "imageSrc": "projects/project.png",
+    "description": "Real-time chat app with PERN stack, Redis caching, and Socket.IO for live communication, featuring secure login and intuitive UI.",
+    "skills": ["React", "Node.js", "Express", "PostgreSQL", "Redis", "Socket.IO", "ChakraUI", "Jest"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "DocuGuard: Secure Cloud-Native Document Management System",
+    "imageSrc": "projects/project.png",
+    "description": "Secure cloud-native document management system using microservices, Kubernetes, Docker, and Node.js, with JWT integration for security.",
+    "skills": ["Microservices", "Kubernetes", "Docker", "React.js", "Node.js", "RESTful APIs", "JWT", "CI/CD"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "EventHub Platform Development",
+    "imageSrc": "projects/project.png",
+    "description": "Real-time platform with Google Maps integration, GraphQL, PostgreSQL, and JWT for enhanced security and efficiency in event management.",
+    "skills": ["React", "Node.js", "Express", "PostgreSQL", "GraphQL", "Apollo", "JWT", "Responsive Design", "Cypress"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "Economease: Simplify Your Finances, Amplify Your Savings",
+    "imageSrc": "projects/project.png",
+    "description": "MERN stack budget management app with secure authentication, transaction recording, interactive financial reporting, and Redux for state management.",
+    "skills": ["React.js", "Node.js", "Express", "MongoDB", "Redux", "Responsive Design"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "Serverless Blog Platform Development",
+    "imageSrc": "projects/project.png",
+    "description": "AWS Lambda-based blog platform with API Gateway, DynamoDB, IAM, and Serverless Framework for scalable, cost-effective web app deployment and management.",
+    "skills": ["AWS Lambda","IAM", "API Gateway", "DynamoDB" ],
+    "demo": "",
+    "source": ""
+  }
+]

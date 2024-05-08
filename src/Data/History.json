@@ -1,0 +1,19 @@
+[
+  {
+    "role": "Full Stack Web Developer",
+    "organisation": "Centella Scientific Pvt Ltd",
+    "startDate": "Jun, 2022",
+    "endDate": "Nov, 2022",
+    "experiences": ["Collaborated in a dynamic team to design and implement new features for the company’s main web applications.", "Implemented comprehensive testing frameworks with Jest and Selenium to minimise bugs and optimise user interface.", "Participated in agile sprint planning and daily stand-ups, to ensure timely delivery of project milestones.", "Resolved issues in staging and production environments, reducing downtime and enhancing customer satisfaction."
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Projects' Handler ",
+    "organisation": "Ecell-JNTUHCEH",
+    "startDate": "Oct, 2020",
+    "endDate": "Oct, 2022",
+    "experiences": ["I work with ID Card Generator and Receipt Generator projects that are written in Python.", "Headed ECELL's technical team, managing 12 members and leading six innovative college projects using MERN stack, boosting student entrepreneurship engagement by 35%."],
+    "imageSrc": "history/microsoft.png"
+  }
+]
