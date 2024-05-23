@@ -3,26 +3,36 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-content: stretch;
+  justify-content: space-between; /* Space out the content vertically */
   border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  background: linear-gradient(180deg, #ffdab9 0%, #ffefd5 100%);
+  box-shadow: 16px 16px 14px 0 #dcdcdc;
   padding: 18px 24px;
   max-width: 345px;
+  min-width: 345px; /* Ensure minimum width */
+  height: 100%; /* Make sure it takes full height */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 .image {
   margin-bottom: 26px;
+  width: 100%; /* Ensure image takes full width */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .title {
   font-size: 20px;
   font-weight: 700;
+  text-align: center; /* Center align the text */
 }
 
 .description {
   margin-top: 6px;
   font-size: 15px;
   font-weight: 400;
+  flex-grow: 1; /* Allow the description to grow and take available space */
+  text-align: left; /* Center align the text */
 }
 
 .skills {
@@ -33,13 +43,14 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  justify-content: center; /* Center align the skills */
 }
 
 .skill {
   font-size: 10px;
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-dark);
+  background: #ffcfcf;
   padding: 2px 22px;
 }
 
@@ -52,10 +63,10 @@
 
 .link {
   text-decoration: none;
-  color: var(--color-text);
+  color: #ffffff; /* White text for high contrast */
   font-size: 15px;
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-primary);
+  background: #007BFF; /* A pleasant blue color */
   padding: 2px 20px;
 }

@@ -1,42 +1,57 @@
-
 [
   {
     "title": "Friendlyy: A Real-Time Chat Application",
     "imageSrc": "projects/project.png",
-    "description": "Real-time chat app with PERN stack, Redis caching, and Socket.IO for live communication, featuring secure login and intuitive UI.",
+    "description": ["Real-time chat app with PERN stack, Redis caching, and Socket.IO for live communication, featuring secure login and intuitive UI. Integrated Kafka for real-time data streaming and processing.", " Utilised WebSockets for real-time communication features in the Friendlyy chat application, enhancing live user interaction."],
     "skills": ["React", "Node.js", "Express", "PostgreSQL", "Redis", "Socket.IO", "ChakraUI", "Jest"],
     "demo": "",
     "source": ""
   },
   {
-    "title": "DocuGuard: Secure Cloud-Native Document Management System",
+    "title": "Decentralised Freelance Marketplace",
     "imageSrc": "projects/project.png",
-    "description": "Secure cloud-native document management system using microservices, Kubernetes, Docker, and Node.js, with JWT integration for security.",
-    "skills": ["Microservices", "Kubernetes", "Docker", "React.js", "Node.js", "RESTful APIs", "JWT", "CI/CD"],
+    "description": ["Implemented a decentralised freelance marketplace inspired by Fiverr, leveraging blockchain technology to ensure secure, transparent, and fair transactions between freelancers and clients, focusing on creating a full-stack decentralised application (dApp) with Ethereum smart contracts."],
+    "skills": ["Solidity", "Ethereum", "Web3.js", "React.js", "Node.js", "Express", "IPFS", "Truffle", "Ganache", "Solana", "S3"],
     "demo": "",
+    "source": "Github"
+  },
+  {
+    "title": "EventHub",
+    "imageSrc": "projects/project.png",
+    "description": "Built on Next.js 14, the events application stands as a comprehensive, full-stack platform for managing events. It serves as a hub, spotlighting diverse events taking place globally. Featuring seamless payment processing through Stripe, you have the capability to purchase tickets for any event or even initiate and manage your own events. Implemented SSR and SSG techniques using Next.js, improving load times and SEO performance.",
+    "skills": ["Node.js", "Next.js", "TypeScript", "TailwindCSS", "Stripe", "Zod", "React Hook Form", "Shadcn", "uploadthing"],
+    "demo": "Demo",
     "source": ""
   },
   {
-    "title": "EventHub Platform Development",
+    "title": "Economease: Simplify Your Finances",
     "imageSrc": "projects/project.png",
-    "description": "Real-time platform with Google Maps integration, GraphQL, PostgreSQL, and JWT for enhanced security and efficiency in event management.",
-    "skills": ["React", "Node.js", "Express", "PostgreSQL", "GraphQL", "Apollo", "JWT", "Responsive Design", "Cypress"],
-    "demo": "",
-    "source": ""
-  },
-  {
-    "title": "Economease: Simplify Your Finances, Amplify Your Savings",
-    "imageSrc": "projects/project.png",
-    "description": "MERN stack budget management app with secure authentication, transaction recording, interactive financial reporting, and Redux for state management.",
-    "skills": ["React.js", "Node.js", "Express", "MongoDB", "Redux", "Responsive Design"],
-    "demo": "",
+    "description": "Developed a full-stack financial management platform using MERN stack, integrating machine learning to analyse future returns with a focus on user-friendly design. Implemented AI features using OpenAI’s GPT models to enhance predictive analytics capabilities.",
+    "skills": ["Typescript", "React.js", "Node.js", "Express.js", "MongoDB", "Redux toolkit", "Responsive Design", "MUI", "Recharts", "Machine Learning", "Linear Regression"],
+    "demo": "Demo",
     "source": ""
   },
   {
     "title": "Serverless Blog Platform Development",
     "imageSrc": "projects/project.png",
     "description": "AWS Lambda-based blog platform with API Gateway, DynamoDB, IAM, and Serverless Framework for scalable, cost-effective web app deployment and management.",
-    "skills": ["AWS Lambda","IAM", "API Gateway", "DynamoDB" ],
+    "skills": ["AWS Lambda", "API Gateway", "DynamoDB", "IAM", "Serverless Framework"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "Real-Time Automatic Number Plate Recognition",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a real-time automatic number plate recognition system using machine learning techniques to detect and recognize vehicle licence plates from video streams.",
+    "skills": ["Python", "OpenCV", "TensorFlow", "Keras", "Flask", "Computer Vision", "Machine Learning"],
+    "demo": "",
+    "source": "Github"
+  },
+  {
+    "title": "Infrastructure Monitoring and Logging System",
+    "imageSrc": "projects/project.png",
+    "description": "Set up comprehensive monitoring and logging for a multi-server environment using Grafana and Splunk, providing real-time insights and alerts for system performance and security.",
+    "skills": ["Grafana", "Splunk", "Linux", "Windows Server"],
     "demo": "",
     "source": ""
   }

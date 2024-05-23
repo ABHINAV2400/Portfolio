@@ -1,7 +1,5 @@
 import React from "react";
-
 import styles from "./Projects.module.css";
-
 import projects from "../../Data/Projects.json";
 import { ProjectCard } from "./ProjectCard";
 
